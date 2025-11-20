@@ -16,5 +16,7 @@ public class Main {
         System.out.println(game.scoreGuess("con"));
         System.out.println(game.scoreGuess("cat"));
         System.out.println(game.findBetterGuess("con", "cat"));
+
+        System.out.println("Hi, Vincent!");
     }
 }
