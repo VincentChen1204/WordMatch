@@ -1,9 +1,7 @@
-import java.io.File;
 import java.io.IOException;
-import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         /** Game 1, word: mississippi */
         WordMatch w = new WordMatch("mississippi");
@@ -20,5 +18,7 @@ public class Main {
         System.out.println(game.scoreGuess("con"));
         System.out.println(game.scoreGuess("cat"));
         System.out.println(game.findBetterGuess("con", "cat"));
+
+        System.out.println(WordMatch.read());
     }
 }
